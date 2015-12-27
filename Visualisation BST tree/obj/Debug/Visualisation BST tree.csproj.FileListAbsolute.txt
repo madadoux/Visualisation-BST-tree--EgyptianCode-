@@ -1,0 +1,9 @@
+F:\WORK\Visualisation BST tree\Visualisation BST tree\bin\Debug\Visualisation BST tree.exe.config
+F:\WORK\Visualisation BST tree\Visualisation BST tree\bin\Debug\Visualisation BST tree.exe
+F:\WORK\Visualisation BST tree\Visualisation BST tree\bin\Debug\Visualisation BST tree.pdb
+F:\WORK\Visualisation BST tree\Visualisation BST tree\obj\Debug\Visualisation_BST_tree.Form1.resources
+F:\WORK\Visualisation BST tree\Visualisation BST tree\obj\Debug\Visualisation_BST_tree.Properties.Resources.resources
+F:\WORK\Visualisation BST tree\Visualisation BST tree\obj\Debug\Visualisation BST tree.csproj.GenerateResource.Cache
+F:\WORK\Visualisation BST tree\Visualisation BST tree\obj\Debug\Visualisation BST tree.exe
+F:\WORK\Visualisation BST tree\Visualisation BST tree\obj\Debug\Visualisation BST tree.pdb
+F:\WORK\Visualisation BST tree\Visualisation BST tree\obj\Debug\Visualisation BST tree.csprojResolveAssemblyReference.cache
