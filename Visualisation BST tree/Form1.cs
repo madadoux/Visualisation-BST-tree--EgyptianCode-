@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.Threading;
+
 namespace Visualisation_BST_tree
 {
     public partial class Form1 : Form
@@ -294,6 +296,63 @@ namespace Visualisation_BST_tree
             b.CLEAR();
             tree_update();
         }
+
+        private void panel1_Enter(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void panel1_MouseEnter(object sender, EventArgs e)
+        {
+ 
+        }
+
+        private void  button8_Click(object sender, EventArgs e)
+        {
+            ran_inserted = 15; 
+            doStaff(); 
+       
+            
+        }
+
+        async Task doStaff()
+        {
+            await Task.Run(() =>SyncClick()); 
+        }
+
+       async Task SyncClick()
+        {
+
+
+
+            while (ran_inserted > 0 )
+            {
+                b.insert(r.Next(50));
+                tree_update();
+                ran_inserted--;
+                await Task.Delay(1000); 
+            
+            }
+
+            
+        }
+       
+      
+        Random r = new Random() ;
+
+        int  ran_inserted = 15; 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+
+           
+        }
+
+        private void panel1_MouseHover(object sender, EventArgs e)
+        {
+ 
+        }
+
     }
 }
 
