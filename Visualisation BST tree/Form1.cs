@@ -19,9 +19,10 @@ namespace Visualisation_BST_tree
             InitializeComponent();
 
             INIT();
+   
         }
 
-
+        
 
 
 
@@ -117,13 +118,6 @@ namespace Visualisation_BST_tree
         {
             tree_update();
         }
-
-
-
-
-
-
-
 
 
         /// <summary>
@@ -351,6 +345,11 @@ namespace Visualisation_BST_tree
         private void panel1_MouseHover(object sender, EventArgs e)
         {
  
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            tree_update();
         }
 
     }
